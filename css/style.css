@@ -259,3 +259,134 @@ section {
   color: #fff;
   padding: 10px !important;
 }
+
+@media screen and (max-width: 576px) {
+  .big-header {
+    font-size: 24px;
+  }
+
+  .primary-copy {
+    font-size: 0.875rem;
+  }
+
+  section {
+    padding: 50px 0px;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+    max-width: 376px;
+    width: 100%;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .hero .button-demo {
+    justify-content: center;
+  }
+
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    max-width: 380px;
+    height: 385px;
+  }
+
+  .content .fill-content {
+    flex-direction: column-reverse !important;
+    text-align: center;
+    gap: 32px;
+    margin-bottom: 52px;
+  }
+
+  .content .fill-content img {
+    width: 312px;
+    height: auto;
+  }
+
+  .form-page .container {
+    padding: 0px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .form-contact .img-contact {
+    width: 146px;
+  }
+
+  .form-contact .img-contact img {
+    width: 100%;
+  }
+
+  .form-contact {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px 48px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px 64px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-bottom .certified img {
+    height: 40px;
+  }
+
+  .footer-bottom .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-bottom .certified {
+    display: flex;
+    gap: 21px !important;
+    justify-content: center;
+  }
+
+  .accordion-button::after {
+    display: block !important;
+  }
+
+  .accordion .accordion-button {
+    pointer-events: all !important;
+  }
+}
